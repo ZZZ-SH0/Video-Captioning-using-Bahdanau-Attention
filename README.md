@@ -44,15 +44,7 @@ git clone https://github.com/ZZZ-SH0/Video-Captioning-using-Bahdanau-Attention
 
 Move into the project directory:
 ```bash
-cd Video-Captioning-using-Bahdanau-
-
-https://github.com/user-attachments/assets/30ede03e-5c85-424e-ac4a-3c3966cb1be0
-
-
-
-https://github.com/user-attachments/assets/2cc23524-89a8-4c95-9e7b-3bf86dc35eee
-
-Attention
+cd Video-Captioning-using-Bahdanau-Attention
 ```
 
 Create environment:
