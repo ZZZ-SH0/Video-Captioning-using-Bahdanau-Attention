@@ -33,7 +33,7 @@ It contains 1450 training videos and 100 testing videos.
 
 Clone the repository:
 ```bash
-git clone https://github.com/ZZZ-SH0/Video-Captioning-using-Bahdanau-Attention/edit/main/README.md
+git clone https://github.com/ZZZ-SH0/Video-Captioning-using-Bahdanau-Attention
 ```
 
 Move into the project directory:
