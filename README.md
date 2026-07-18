@@ -22,7 +22,7 @@ caption generation, thereby improving the quality and coherence of generated cap
 - [Performance](#performance)
 - [Scripts](#scripts)
 - [Future Development](#future-development)
-- [References](#references)
+
 
 ## Dataset
 
@@ -78,19 +78,19 @@ To train locally, run `train.py`, or use the `Video_Captioning.ipynb` notebook.
 
 ### Model Architecture
 
-<p align="center"><img align="center" src="images/model.png" /></p>
+<p align="center"><img align="center" src="image/model.png" /></p>
 
 ### Loss
 
 This is the graph of epochs vs loss. The loss used is categorical crossentropy.
 
-<p align="center"><img align="center" src="images/loss_graph.png" /></p>
+<p align="center"><img align="center" src="image/loss_graph.png" /></p>
 
 ### Metric
 
 This is the graph of epochs vs metric. The metric used is accuracy.
 
-<p align="center"><img align="center" src="images/accuracy_graph.png" /></p>
+<p align="center"><img align="center" src="image/accuracy_graph.png" /></p>
 
 ## Performance
 
