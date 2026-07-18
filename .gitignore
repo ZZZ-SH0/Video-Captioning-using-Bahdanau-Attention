@@ -1,0 +1,30 @@
+
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# External Dataset
+MSVD/
+
+# Temporary
+temp/
+
+# Generated files
+predictions.json
+references.json
+
+# Ignore OLD images folder
+images/
+
+# System
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
