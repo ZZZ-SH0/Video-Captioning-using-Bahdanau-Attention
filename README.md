@@ -1,15 +1,17 @@
 # Video-Captioning
 
-Video Captioning is an encoder decoder mode based on sequence to sequence learning.
-It takes a video as input and generates a caption describing the event in the video. 
-
-The importance of captioning lies in its ability to make video more accessible in numerous ways. 
-Automated video caption generator helps searching of videos in websites better. 
-It can be used for clustering of videos based on their content easier.
-This is a brief overview of my project. To understand the project in details check out my medium <a href="https://medium.com/analytics-vidhya/video-captioning-with-keras-511984a2cfff">post</a>. I also did a <a href="https://youtu.be/DJEnkhKPbxA">live session</a> on this you can check that as well.
+Video captioning is the process of describing the content of a sequence of images
+capturing its semantic relationships and meanings. This project implements a sequence-to-
+sequence video caption generation approach built using Long Short-Term Memory (LSTM)
+networks. A pre-trained ResNet50 CNN network , fine tuned for this task, is used to extract
+rich spatial features from individual video frames , ResNet50 mitigates the vanishing gradient
+problem and captures richer, more discriminative spatial representations. Also to address the
+limited long-term memory retention of standard LSTM decoders, a Bahdanau attention
+mechanism is introduced to overcome the fixed-length context vector bottleneck of standard
+LSTM encoder-decoder, allowing to focus on the most relevant frame at each step of caption
+generation, thereby improving the quality and coherence of generated captions
 
 ## Table of contents
-* <a href="#Inspiration">Inspiration</a>
 * <a href="#SampleResults">Sample Results</a>
 * <a href="#Dataset">Dataset</a>
 * <a href="#Setup">Setup</a>
