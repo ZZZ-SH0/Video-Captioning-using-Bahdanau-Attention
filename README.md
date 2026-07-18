@@ -23,6 +23,10 @@ caption generation, thereby improving the quality and coherence of generated cap
 - [Scripts](#scripts)
 - [Future Development](#future-development)
 
+## Example Video
+<p align="center"><img align="center" src="outputs/captioned_Recording 2026-07-18 024907.mp4" /></p>
+
+
 
 ## Dataset
 
